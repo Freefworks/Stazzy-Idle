@@ -1,0 +1,8 @@
+p{background-color:hsla(0, 0%, 0%, 0.5); color:white; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards; padding-left: 10px;}
+img{background-color:hsla(0, 0%, 0%, 0.5); transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
+button{font-family: 'Custom'; background-color:hsla(0, 0%, 0%, 0.5); color:white; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
+body{background-color: #00007f; font-family: 'Custom';}
+html{cursor: crosshair;}
+@font-face {font-family: 'Custom'; src: url('Kabel\ Bold.ttf');}
+@keyframes slide-in {100%{transform: translateX(0%);}}
+@-webkit-keyframes slide-in {100%{-webkit-transform: translateX(0%);}}
